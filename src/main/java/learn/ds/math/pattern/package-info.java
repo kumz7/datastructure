@@ -5,7 +5,7 @@
  * @author mac
  *
  */
-package learn.ds.pattern;
+package learn.ds.math.pattern;
 /*
 ref:-
 

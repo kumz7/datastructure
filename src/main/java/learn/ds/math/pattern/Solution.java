@@ -1,4 +1,4 @@
-package learn.ds.pattern;
+package learn.ds.math.pattern;
 
 public class Solution{
 	public static void main(String as[]){
