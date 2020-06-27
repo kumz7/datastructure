@@ -1,0 +1,43 @@
+Mkdir -p src/main/java/com/....
+Cd .../java/com/..
+vi pattern.java
+Write the code 
+Save it
+Install cradle
+
+Create build.gradle file
+
+Apply plugin:'java'
+
+do Grade build
+
+
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName='learn.ds.pattern'
+Gradle run
+Gradle build
+
+
+Incase 3rd party dip
+
+For starters, you need to add a source for 3rd party libraries.
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+    testCompile "junit:junit:4.12"
+}
+
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.0'
+}
